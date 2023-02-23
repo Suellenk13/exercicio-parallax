@@ -29,6 +29,7 @@ p {
 .caixa2,
 .caixa3,
 .caixa4 {
+    position: relative;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,4 +52,21 @@ p {
 
 .caixa4 {
     background-image: url(img/imagem4.jpg);
+}
+
+.conteudo-titulo {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo-titulo span.titulo {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
 }
